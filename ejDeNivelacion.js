@@ -242,25 +242,3 @@
 
 // console.log(minSum([7,6,5,4,3,2,1,3]));
 
-
-
-// 13. Arreglo de objetos
-// Debés crear una función llamada `arregloDeObjetos` que reciba un número como parámetro 
-// y devuelva un arreglo de objetos que tengan una propiedad llamada `valor` que contenga el
-//  valor del número y sus anteriores.
-
-// Ejemplo:
-// arregloDeObjetos(5) debe retornar [{valor: 1}, {valor: 2}, {valor: 3}, {valor: 4}, {valor: 5}]
-// arregloDeObjetos(3) debe retornar [{valor: 1}, {valor: 2}, {valor: 3}]
-
-let arregloDeObjetos = (x)=>{
-    let a =[]
-    for (let i = 1; i = x; i++) {
-        let y = {valor: i}
-        a.push(y)
-
-    }
-
-}
-
-arregloDeObjetos(5)
